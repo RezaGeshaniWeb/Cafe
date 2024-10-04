@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Avada Cafe Website - develop with html css">
+    <title>Avada Cafe</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="img/cafe-favicon.webp" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <aside>
+            <img src="img/cafe_logo2x.webp" alt="logo">
+            <ul>
+                <li>
+                    <a href="#">HOME</a>
+                </li>
+                <li>
+                    <a href="#">ABOUT US</a>
+                </li>
+                <li>
+                    <a href="#">FOOD & DRINK</a>
+                </li>
+                <li>
+                    <a href="#">OUR STORY</a>
+                </li>
+                <li>
+                    <a href="#">LOCATIONS</a>
+                </li>
+                <li>
+                    <a href="#">CONTACT</a>
+                </li>
+            </ul>
+            <div>
+                <div>
+                    <p>Facebook</p>
+                    <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path
+                            d="M 19.253906 2 C 15.311906 2 13 4.0821719 13 8.8261719 L 13 13 L 8 13 L 8 18 L 13 18 L 13 30 L 18 30 L 18 18 L 22 18 L 23 13 L 18 13 L 18 9.671875 C 18 7.884875 18.582766 7 20.259766 7 L 23 7 L 23 2.2050781 C 22.526 2.1410781 21.144906 2 19.253906 2 z" />
+                    </svg>
+                </div>
+                <div>
+                    <p>Twitter</p>
+                    <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                        <path
+                            d="M 28 8.558594 C 27.117188 8.949219 26.167969 9.214844 25.171875 9.332031 C 26.1875 8.722656 26.96875 7.757813 27.335938 6.609375 C 26.386719 7.171875 25.332031 7.582031 24.210938 7.804688 C 23.3125 6.847656 22.03125 6.246094 20.617188 6.246094 C 17.898438 6.246094 15.691406 8.453125 15.691406 11.171875 C 15.691406 11.558594 15.734375 11.933594 15.820313 12.292969 C 11.726563 12.089844 8.097656 10.128906 5.671875 7.148438 C 5.246094 7.875 5.003906 8.722656 5.003906 9.625 C 5.003906 11.332031 5.871094 12.839844 7.195313 13.722656 C 6.386719 13.695313 5.628906 13.476563 4.964844 13.105469 C 4.964844 13.128906 4.964844 13.148438 4.964844 13.167969 C 4.964844 15.554688 6.660156 17.546875 8.914063 17.996094 C 8.5 18.109375 8.066406 18.171875 7.617188 18.171875 C 7.300781 18.171875 6.988281 18.140625 6.691406 18.082031 C 7.316406 20.039063 9.136719 21.460938 11.289063 21.503906 C 9.605469 22.824219 7.480469 23.609375 5.175781 23.609375 C 4.777344 23.609375 4.386719 23.585938 4 23.539063 C 6.179688 24.9375 8.765625 25.753906 11.546875 25.753906 C 20.605469 25.753906 25.558594 18.25 25.558594 11.742188 C 25.558594 11.53125 25.550781 11.316406 25.542969 11.105469 C 26.503906 10.410156 27.339844 9.542969 28 8.558594 Z" />
+                    </svg>
+                </div>
+                <div>
+                    <p>Instagram</p>
+                    <svg class="icon-aside" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                </div>
+                <div>
+                    <p>YouTube</p>
+                    <svg class="icon-aside" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <title>YouTube icon</title>
+                        <path
+                            d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                    </svg>
+                </div>
+            </div>
+        </aside>
+        <section>
+            <section class="main-bg"></section>
+
+            <section class="eating">
+                <div>
+                    <h2>A NEW WAY OF EATING</h2>
+                    <p>
+                        AVADA CAFE EXTRAORDINARY FOOD AT UNBEATABLE PRICES
+                    </p>
+                    <div class="border-bottom"></div>
+                    <div>
+                        <img src="img/about-12.jpg" alt="" />
+                        <img src="img/about-22.jpg" alt="" />
+                    </div>
+                    <p>
+                        Café au lait, breve coffee latte froth shop macchiato grinder.
+                        Wings cream steamed single shot, cup cinnamon et aroma acerbic
+                        chicory aroma java. Plunger pot medium, latte chicory coffee extra
+                        cappuccino siphon frappuccino extraction kopi-luwak chicory.
+                        Flavour, body aromatic sit french press java. Qui kopi-luwak qui
+                        in mazagran galão decaffeinated java. Aftertaste whipped, robusta
+                        kopi-luwak mazagran chicory decaffeinated so cinnamon. Frappuccino
+                        grinder aged, mug plunger pot caramelization latte eu spoon. Cup,
+                        flavour, spoon plunger pot and, strong, macchiato organic whipped
+                        sugar.
+                    </p>
+                    <button>BUY AVADA TODAY</button>
+                </div>
+                <img src="img/about-background2.jpg" alt="">
+            </section>
+
+            <section class="reservations">
+                <h2>RESERVATIONS</h2>
+                <div class="border-bottom"></div>
+                <p>
+                    We’re not trying to be cool but sadly there are only 68 seats in
+                    each cafe and they fill up quickly. If you want in, make a
+                    reservation today.
+                </p>
+                <button>RESERVE NOW</button>
+            </section>
+
+            <section class="items">
+                <div>
+                    <p>avada café new item</p>
+                    <div class="border-bottom"></div>
+                    <p>
+                        avada cafe announces the world’s famous swiss cheeseburger
+                    </p>
+                    <button>VIEW FULL MENU</button>
+                </div>
+                <div>
+                    <p>special promotion</p>
+                    <div class="border-bottom"></div>
+                    <p>
+                        avada cafe introduces special 10% discount on some locations
+                    </p>
+                    <button>VIEW LOCATIONS</button>
+                </div>
+            </section>
+
+            <section class="parts">
+                <div>
+                    <div>
+                        <img src="img/blog-11.jpg" alt="" />
+                        <a href="#">NEW YORK OPENING</a>
+                    </div>
+                    <div>
+                        <img src="img/blog-21.jpg" alt="" />
+                        <a href="#">1,000,000 VISITS</a>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <img src="img/blog-311.jpg" alt="" />
+                        <a href="#">EXCLUSIVE COFFEE</a>
+                    </div>
+                    <div>
+                        <img src="img/blog-51.jpg" alt="" />
+                        <a href="#">PACIFIC OPENING</a>
+                    </div>
+                </div>
+            </section>
+
+            <footer>
+                <img src="img/cafe_mobile_logo2x.webp" alt="">
+                <div class="border-b-footer"></div>
+                <div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-geo-alt" viewBox="0 0 16 16">
+                            <path
+                                d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+                        </svg>
+                        <a href="#">LOCATIONS</a>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-menu-up" viewBox="0 0 16 16">
+                            <path
+                                d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793zM1 9V6h14v3zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5m0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5m0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5" />
+                        </svg>
+                        <a href="#">MENU</a>
+                    </div>
+                    <div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chat-dots" viewBox="0 0 16 16">
+                            <path
+                                d="M5 8a1 1 0 1 1-2 0 1 1 0 0 1 2 0m4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0m3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+                            <path
+                                d="m2.165 15.803.02-.004c1.83-.363 2.948-.842 3.468-1.105A9 9 0 0 0 8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6a10.4 10.4 0 0 1-.524 2.318l-.003.011a11 11 0 0 1-.244.637c-.079.186.074.394.273.362a22 22 0 0 0 .693-.125m.8-3.108a1 1 0 0 0-.287-.801C1.618 10.83 1 9.468 1 8c0-3.192 3.004-6 7-6s7 2.808 7 6-3.004 6-7 6a8 8 0 0 1-2.088-.272 1 1 0 0 0-.711.074c-.387.196-1.24.57-2.634.893a11 11 0 0 0 .398-2" />
+                        </svg>
+                        <a href="#">RESERVATIONS</a>
+                    </div>
+                </div>
+                <div class="border-b-footer"></div>
+                <div>
+                    <p>
+                        © 2024 • This is a demo from <strong>Avada.website/cafe</strong> • Coded by
+                        <strong>rezageshani</strong>
+                    </p>
+                    <div>
+                        <i class="bi bi-telephone-fill"></i>
+                        <a href="tel:09934774358">09934774358</a>
+                    </div>
+                    <div>
+                        <i class="bi bi-linkedin"></i>
+                        <a href="https://www.linkedin.com/in/reza-geshani-web">reza-geshani-web</a>
+                    </div>
+                    <div>
+                        <i class="bi bi-instagram"></i>
+                        <a href="https://www.instagram.com/rezageshani_web">@rezageshani_web</a>
+                    </div>
+                    <div>
+                        <i class="bi bi-github"></i>
+                        <a href="https://github.com/RezaGeshaniWeb/">RezaGeshaniWeb</a>
+                    </div>
+                </div>
+            </footer>
+
+            <a href="#" class="fixed-a">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 15.75 7.5-7.5 7.5 7.5" />
+                </svg>
+            </a>
+
+            <div class="fixed-info">
+                <div class="circle">
+                    <img src="img/me5.jpg" alt="">
+                </div>
+                <strong>Frontend Developer</strong>
+                <a href="https://www.linkedin.com/in/reza-geshani-web"><i class="bi bi-linkedin"></i></a>
+                <a href="https://www.instagram.com/rezageshani_web"><i class="bi bi-instagram"></i></a>
+                <a href="https://github.com/RezaGeshaniWeb/"><i class="bi bi-github"></i></a>
+                <a href="mailto:rezageshaniweb@gmail.com"><i class="bi bi-envelope-at"></i></a>
+            </div>
+        </section>
+    </main>
+</body>
+
+<script>
+    const fixedA = document.querySelector(".fixed-a")
+    document.addEventListener("scroll", () => {
+        if (document.documentElement.scrollTop > 3050) {
+            fixedA.classList.add("d-flex")
+        } else {
+            fixedA.classList.remove("d-flex")
+        }
+    })
+</script>
+
+</html>

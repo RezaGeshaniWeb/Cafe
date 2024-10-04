@@ -1,6 +1,4 @@
 # AvadaCafe
-<a href="https://rezageshaniweb.github.io/AvadaCafe/">Online Demo</a>
-
 
 ![viewfinal]()
 
